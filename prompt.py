@@ -23,5 +23,5 @@ def llama3(prompt):
     
     return(response.json()['message']['content'])
 
-response = llama3("who wrote the book godfather")
+response = llama3("put in prompt here")
 print(response)
